@@ -39,5 +39,18 @@ body, html{
     margin: 0;
 }
 body{
-    background: #000
+    background: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600
+}
+
+#makesure{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background-color: #fff;
+    color: #262626;
+    padding: 11px;
+    text-align: center;
+    z-index: 3;
 }
