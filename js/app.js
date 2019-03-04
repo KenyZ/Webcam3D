@@ -195,7 +195,7 @@ function getWebCam(){
     })
     .catch(function (error) {
         // console.log('deny', error)
-        video.src = './instru1.mp4'
+        video.src = './fallback.mp4'
 
         video.addEventListener('canplay', function(){
             console.log('can play')
